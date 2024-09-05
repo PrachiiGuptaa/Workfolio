@@ -69,7 +69,7 @@ export const Projects = () => {
     {
       title: "Fit Hub",
       image: GymWebsite,
-      description: "Gym website featuring facilities, training programs, user registration, & interactive interface for enhanced user experience.",
+      description: "Gym website featuring facilities, training programs, registration, & interactive interface for enhanced user experience.",
       code: "https://github.com/PrachiiGuptaa/FitHub",
       demo: "https://fit-hub-ivory.vercel.app" 
     },
