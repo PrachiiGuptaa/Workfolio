@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +30,18 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+/** customized texts **/
+/* .text--colors_default {
+  @apply text-slate-900 dark:text-white;
 }
+
+.text--colors_primary {
+  @apply text-blue-500 dark:text-blue-300;
+}
+
+/** customized backgrounds **/
+/* .bg--default {
+  @apply bg-white dark:bg-slate-900;
+} */ 
