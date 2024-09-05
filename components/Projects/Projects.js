@@ -27,7 +27,7 @@ export const Projects = () => {
     {
       title: "Twitter",
       image: Twitter, 
-      description: "Twitter functionality replicated: register, tweet, follow, like, retweet, and comment. Experience the core features of Twitter.",
+      description: "Twitter functionality replicated: register, tweet, follow, like, retweet, & comment. Experience core features of Twitter.",
       code: "https://github.com/PrachiiGuptaa/Twitter-Clone",
       demo: "https://twitter-clone-one-inky.vercel.app" 
     },
@@ -60,7 +60,7 @@ export const Projects = () => {
       demo: "https://notes-website-theta.vercel.app" 
     },
     {
-      title: "Online Examination Website",
+      title: "Examination Website",
       image: OnlineExaminationWebsite, 
       description: "Admin uploads & manages questions, including images. Students take tests & receive scorecards with scores.",
       code: "https://github.com/PrachiiGuptaa/Online-Examination-Website",
@@ -69,7 +69,7 @@ export const Projects = () => {
     {
       title: "Fit Hub",
       image: GymWebsite,
-      description: "Gym website featuring facilities, training programs, user registration, and an interactive interface for enhanced user experience.",
+      description: "Gym website featuring facilities, training programs, user registration, & interactive interface for enhanced user experience.",
       code: "https://github.com/PrachiiGuptaa/FitHub",
       demo: "https://fit-hub-ivory.vercel.app" 
     },
