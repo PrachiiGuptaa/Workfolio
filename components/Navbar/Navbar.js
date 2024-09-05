@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <nav className="relative sticky top-0 z-50 px-6 py-4 shadow-lg dark:bg-slate-600 bg-white">
       <div className="flex justify-between items-center dark:text-slate-100 ">
-        <section className="font-bold mr-auto text-xl cursor-pointer">Prachi Gupta</section>
+        <section className="font-bold mr-auto text-xl cursor-pointer"> <a href="#">Prachi Gupta</a></section>
 
         {/* Menu Toggle Button for Mobile */}
         <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
