@@ -27,7 +27,7 @@ export const Projects = () => {
     {
       title: "Twitter",
       image: Twitter, 
-      description: "Full Twitter functionality replicated: register, tweet, follow, like, retweet, and comment. Experience the core features of Twitter.",
+      description: "Twitter functionality replicated: register, tweet, follow, like, retweet, and comment. Experience the core features of Twitter.",
       code: "https://github.com/PrachiiGuptaa/Twitter-Clone",
       demo: "https://twitter-clone-one-inky.vercel.app" 
     },
@@ -41,14 +41,14 @@ export const Projects = () => {
     {
       title: "Kanban Board",
       image: KanbanBoard,
-      description: "Visualize and manage work, optimize processes, and track progress. Ideal for project management and workflow optimization.",
+      description: "Visualize and manage work, optimize processes, and track progress. Ideal for track & project management.",
       code: "https://github.com/PrachiiGuptaa/Kanban-Board",
       demo: "https://kanban-board-eight-pi.vercel.app" 
     },
     {
       title: "Paint Website",
       image: PaintWebsite, 
-      description: "A Next.js site, styled with Tailwind CSS, and integrated with data pulled from a GraphQL API.",
+      description: "A Next.js site, styled with Tailwind CSS, dynamically pulls and displays data from a GraphQL API for interactive content.",
       code: "https://github.com/PrachiiGuptaa/PaintWebsite",
       demo: "https://paint-website.vercel.app" 
     },
@@ -62,21 +62,21 @@ export const Projects = () => {
     {
       title: "Online Examination Website",
       image: OnlineExaminationWebsite, 
-      description: "Admin uploads & manages questions, including images. Students take tests & receive scorecards with detailed question scores.",
+      description: "Admin uploads & manages questions, including images. Students take tests & receive scorecards with scores.",
       code: "https://github.com/PrachiiGuptaa/Online-Examination-Website",
       demo: "https://online-examination-website.vercel.app" 
     },
     {
       title: "Fit Hub",
       image: GymWebsite,
-      description: "Gym website showcasing facilities, training programs, user registration, and interactive interface.",
+      description: "Gym website featuring facilities, training programs, user registration, and an interactive interface for enhanced user experience.",
       code: "https://github.com/PrachiiGuptaa/FitHub",
       demo: "https://fit-hub-ivory.vercel.app" 
     },
     {
       title: "Quiz",
       image: Quiz, 
-      description: "Quiz app with 3 gameplay options, 10 MCQs per topic, and scorecard displayed after completion.",
+      description: "Quiz app offering 3 gameplay modes, 10 MCQs per topic, and a scorecard displayed upon completion.",
       code: "https://github.com/PrachiiGuptaa/Quiz-Application ",
       demo: " https://quiz-application-ten.vercel.app" 
     },
@@ -126,7 +126,7 @@ export const Projects = () => {
                 <p className="mt-2">{project.description}</p>
                 <div className="flex space-x-2 mt-4">
                   <button className="bg-blue-500 text-white py-2 px-4 rounded dark:bg-gray-800 dark:text-slate-200">
-                  <Link href={project.demo} target="_blank" rel="noreferrer">View Live Site</Link>
+                  <Link href={project.demo} target="_blank" rel="noreferrer">Live Site</Link>
                     
                     </button>
                   {project.code && (

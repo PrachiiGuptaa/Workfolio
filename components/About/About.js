@@ -24,7 +24,7 @@ export default function About() {
         <span className="border border-gray-400 p-4 rounded-lg shadow-md dark:bg-slate-200 dark:text-black">
           <p>Mastered</p>
           <p className="text-2xl font-semibold">4+</p>
-          <p>Tech Stacks</p>
+          <p>Techs</p>
         </span>
       </div>
       <div className="space-y-8">
