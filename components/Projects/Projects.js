@@ -129,11 +129,11 @@ export const Projects = () => {
                   <Link href={project.demo} target="_blank" rel="noreferrer">Live Site</Link>
                     
                     </button>
-                  // {project.code && (
-                  //   <button className="bg-gray-500 text-white py-2 px-4 rounded">
-                  //     <Link href={project.code} target="_blank" rel="noreferrer">View Code</Link>
-                  //     </button>
-                  // )}
+                  {project.code && (
+                    <button className="bg-gray-500 text-white py-2 px-4 rounded">
+                      <Link href={project.code} target="_blank" rel="noreferrer">View Code</Link>
+                      </button>
+                  )}
                 </div>
               </div>
             </SplideSlide>
