@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
-import MedisageWebsite from '../Images/AbcWebsite.png'
+import AbcWebsite from '../Images/AbcWebsite.png'
 import MedisageWebsite from '../Images/MedisageWebsite.png'
 import Twitter from '../Images/Twitter.png'
 import GoogleDoc from '../Images/GoogleDoc.png'
