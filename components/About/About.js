@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import AboutImg from '../Images/About1.jpg';
 import Medisage from '../Images/MediSage.png';
+import Abc from '../Images/Abc.jpg';
 import Functionup from '../Images/Functionup.jpg';
 import {
   FaBriefcase, FaGitlab, FaHtml5, FaJsSquare, FaReact, FaBootstrap, FaGithub,
