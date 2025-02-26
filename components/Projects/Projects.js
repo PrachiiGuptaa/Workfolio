@@ -22,7 +22,7 @@ export const Projects = () => {
      {
       title: "Aditya Birla Capital",
       image: AbcWebsite,
-      description: "A leading financial services provider in India, offering solutions in insurance, asset management, lending, & wealth management",
+      description: "A leading financial services provider in India, offering solutions in insurance, lending, asset & wealth management.",
       demo: "https://lifeinsurance.adityabirlacapital.com/"
     },
     {
