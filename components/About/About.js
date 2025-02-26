@@ -32,7 +32,7 @@ export default function About() {
       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
           <Image src={Abc} alt="Aditya Birla Capital" height={50} width={50} />
           <div className="sm:w-48">
-            <div className="text-[#000080] font-semibold dark:text-slate-200">Aditya Birla Sun Life Insurance, Mumbai</div>
+            <div className="text-[#000080] font-semibold dark:text-slate-200">Aditya Birla Capital, Mumbai</div>
             <div className="text-gray-600 dark:text-slate-300">Software Developer</div>
             <div className="text-gray-500 dark:text-slate-400">Nov 2024 - Present</div>
           </div>
