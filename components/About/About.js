@@ -18,7 +18,7 @@ export default function About() {
       <div className="flex gap-12 pb-8 items-center text-center">
         <span className="border border-gray-400 p-4 rounded-lg shadow-md dark:bg-slate-200 dark:text-black">
           <p>Completed</p>
-          <p className="text-2xl font-semibold">6+</p>
+          <p className="text-2xl font-semibold">7+</p>
           <p>Projects</p>
         </span>
         <span className="border border-gray-400 p-4 rounded-lg shadow-md dark:bg-slate-200 dark:text-black">
@@ -28,6 +28,13 @@ export default function About() {
         </span>
       </div>
       <div className="space-y-8">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <Image src={} alt="Aditya Birla Capital" height={50} width={50} />
+          <div className="sm:w-48">
+            <div className="text-[#000080] font-semibold dark:text-slate-200">Aditya Birla Sun Life Insurance, Mumbai</div>
+            <div className="text-gray-600 dark:text-slate-300">Software Developer</div>
+            <div className="text-gray-500 dark:text-slate-400">Nov 2024 - Present</div>
+          </div>
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
           <Image src={Medisage} alt="MediSage" height={50} width={50} />
           <div className="sm:w-48">
@@ -37,9 +44,9 @@ export default function About() {
           </div>
         </div>
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-          <Image src={Functionup} alt="FunctionUp" height={50} width={50} className="rounded-full" />
+          <Image src={Functionup} alt="FanPlay" height={50} width={50} className="rounded-full" />
           <div className="sm:w-48">
-            <div className="text-[#000080] font-semibold dark:text-slate-200">FunctionUp, Bengaluru</div>
+            <div className="text-[#000080] font-semibold dark:text-slate-200">FanPlay Games, Bengaluru</div>
             <div className="text-gray-600 dark:text-slate-300">Front-End Developer - Intern</div>
             <div className="text-gray-500 dark:text-slate-400">Nov 2022 - Aug 2023</div>
           </div>
@@ -107,7 +114,7 @@ export default function About() {
           </div>
           <div className="text-center">
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              I am Prachi Gupta, a dedicated Front-End Developer. With expertise in JavaScript, React, and Next.js, I build responsive applications focused on user satisfaction.
+              I am Prachi Gupta, a dedicated Software Developer. With expertise in JavaScript, React, and Next.js, I build responsive applications focused on user satisfaction.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 mt-4">
               Throughout my career, I’ve sharpened my skills in UI/UX design, state management, and version control. I thrive in dynamic environments, collaborating effectively to deliver high-quality work even under tight deadlines.
