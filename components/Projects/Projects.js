@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
+import MedisageWebsite from '../Images/AbcWebsite.png'
 import MedisageWebsite from '../Images/MedisageWebsite.png'
 import Twitter from '../Images/Twitter.png'
 import GoogleDoc from '../Images/GoogleDoc.png'
@@ -18,6 +19,12 @@ import Link from "next/link";
 export const Projects = () => {
 
   const projects = [
+     {
+      title: "Aditya Birla Capital",
+      image: AbcWebsite,
+      description: "A leading financial services provider in India, offering solutions in insurance, asset management, lending, & wealth management",
+      demo: "https://lifeinsurance.adityabirlacapital.com/"
+    },
     {
       title: "MediSage",
       image: MedisageWebsite,
