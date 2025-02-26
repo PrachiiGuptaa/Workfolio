@@ -34,7 +34,7 @@ export const HomePage = () => {
           <p className="text-lg md:text-xl">Hello, I am</p>
           <p className="text-4xl md:text-5xl font-bold my-2">Prachi Gupta</p>
           <p className="text-xl md:text-2xl font-semibold">
-            Frontend Developer
+            Software Developer
           </p>
           <div className="p-3 flex gap-4 justify-center my-2">
             <div className="border border-black px-3 py-2 rounded-full md:text-base text-sm dark:bg-slate-200 dark:text-black">
