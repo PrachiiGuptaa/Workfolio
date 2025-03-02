@@ -48,7 +48,7 @@ export default function About() {
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
           <Image src={Functionup} alt="FanPlay" height={50} width={50} className="rounded-full" />
           <div className="sm:w-48">
-            <div className="text-[#000080] font-semibold dark:text-slate-200">FanPlay Games, Bengaluru</div>
+            <div className="text-[#000080] font-semibold dark:text-slate-200">FanPlay Games and Media Private Limited, Bengaluru</div>
             <div className="text-gray-600 dark:text-slate-300">Front-End Developer - Intern</div>
             <div className="text-gray-500 dark:text-slate-400">Nov 2022 - Aug 2023</div>
           </div>
